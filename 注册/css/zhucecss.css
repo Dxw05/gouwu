@@ -1,0 +1,151 @@
+.main{
+	width: 1190px;
+	margin: 0 auto;
+}
+header>div{
+	float: left;
+	height: 134px;
+	width: 1190px;
+}
+header img{
+	margin-top: 30px;
+	
+}
+footer{
+	float: left;
+	margin-top: 30px;
+	width: 1190px;
+}
+footer p{
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+footer p>a{
+	text-decoration: none;
+	color: #0563c3;
+	font-size: 12px;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.sd{
+	margin: 0 auto;
+	width: 440px;
+	height: 390px;
+	padding-right: 90px;
+}
+.sd>ul{
+	float: left;
+	width: 90px;
+}
+.sd>ul li{
+	float: right;
+	width: 80px;
+	line-height: 36px;
+	margin-bottom: 19px;
+	padding-right: 10px;
+	text-align: right;
+}
+.sd>ul li:nth-of-type(2){
+	margin-bottom: 43px;
+}
+form{
+	float: left;
+	width: 350px;
+	height: 390px;
+}
+form>ul{
+	float: left;
+	width: 350px;
+}
+form>ul li{
+	float: left;
+	width: 350px;
+	min-height: 36px;
+	margin-bottom: 19px;
+}
+form>ul li:nth-of-type(1){
+	background: url(../img/bg-1.gif) no-repeat;
+}
+form>ul li:nth-of-type(2){
+	background: url(../img/bg-2.gif) no-repeat;
+}
+form>ul li:nth-of-type(3){
+	background: url(../img/bg-5.gif) no-repeat;
+}
+form>ul li:nth-of-type(4){
+	background: url(../img/bg-6.gif) no-repeat;
+}
+form>ul li:nth-of-type(5){
+	margin-bottom: 0;
+}
+form>ul li:nth-of-type(7){
+	line-height: 36px;
+	text-align: right;
+}
+input[name="yonghu"]{
+	float: left;
+	width: 325px;
+	height: 34px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border: 0;
+}
+input[name="mima"]{
+	float: left;
+	width: 325px;
+	height: 34px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border: 0;
+}
+input[name="mima2"]{
+	float: left;
+	width: 325px;
+	height: 34px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border: 0;
+}
+input[name="mima"]+div{
+	float: right;
+	width: 170px;
+	height: 20px;
+	margin-top: 5px;
+	text-align: right;
+}
+.no{
+	background: #cccccc;
+	padding: 0 10px;
+	color: white;
+}
+.yes{
+	color: white;
+	padding: 0 10px;
+	background: orange;
+}
+input[name="yanzheng"]{
+	float: left;
+	width: 138px;
+	margin-top: 1px;
+	margin-left: 1px;
+	height: 34px;
+	margin-right: 2px;
+	border: 0;
+}
+input[name="yanzheng"]~a{
+	text-decoration: none;
+	color: #0563C3;
+}
+input[name="yuedu"]~a{
+	text-decoration: none;
+	color: #0563C3;
+}
+a[name="dl"]{
+	text-decoration: none;
+	color: #0563C3;
+}

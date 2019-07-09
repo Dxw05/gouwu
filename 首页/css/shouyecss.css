@@ -1,0 +1,80 @@
+header,section,footer{
+	width: 1190px;
+	margin: 0 auto;
+}
+.main{
+	width: 1190px;
+	margin: 0 auto;
+}
+.headtop{
+	background: #f2f2f2;
+	height: 28px;
+}
+.top{
+	float: left;
+	width: 1190px;
+	height: 28px;
+	line-height: 28px;
+}
+.home{
+	float: left;
+	background: url(../img/home.gif) left center no-repeat;
+	text-indent: 2em;
+	margin-right: 30px;
+}
+.top a{
+	text-decoration: none;
+	color: #666666;
+}
+.user,.user li{
+	float: left;
+	margin-right: 10px;
+}
+.vip,.trigth{
+	float: right;
+	margin-right: 12px;
+}
+.vip li{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 12px;
+}
+.trigth{
+	float: right;
+}
+.trigth li{
+	float: left;
+}
+.trigth li:nth-last-of-type(3){
+	margin-right: 12px;
+}
+.trigth li:nth-last-of-type(2){
+	width: 16px;
+	height: 16px;
+	padding: 5px;
+}
+.trigth li:nth-last-of-type(1){
+	width: 16px;
+	height: 16px;
+	padding: 5px;
+}
+.header{
+	float: left;
+	width: 1190px;
+	height: 94px;
+	margin-top: 34px;
+	margin-bottom: 16px;
+}
+.logo{
+	float: left;
+	width: 290px;
+	height: 94px;
+}
+.search{
+	float: left;
+	width: 665px;
+	height: 78px;
+	margin-left: 10px;
+}
+
