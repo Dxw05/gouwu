@@ -10,26 +10,28 @@
 		<div class="main">
 			<header>
 				<div>
-					<a href="#"><img src="img/logo.jpg" ></a>
+					<a href="../首页/shouye.html"><img src="img/logo.jpg" ></a>
 				</div>
 			</header>
 			<section>
 				<div class="deng">
-					<a href="#">会员登录</a><a href="#">免费注册&gt;</a>
+					<a href="../登录/denglu.html">会员登录</a><a href="../注册/zhuce.html">免费注册&gt;</a>
 					<div class="cls"></div>
-					<form action="#" method="get">	
+					<form action="../首页/shouye.html" id="myform" method="get">	
 						<ul class="form">
 							<li>
-								<input type="text" placeholder="用户名/邮箱地址/已验证手机号">
+								<input id="user" type="text" placeholder="用户名/邮箱地址/已验证手机号" required>
+								<p id="userid"></p>
 							</li>
 							<li>
-								<input type="text" placeholder="填写密码">
+								<input id="pwd" type="text" placeholder="填写密码" required>
+								<p id="pwdid"></p>
 							</li>
 							<li class="bz">
 								<input type="checkbox">下次自动登录<a href="#">忘记密码</a>
 							</li>
 							<li class="dl">
-								<a href="#" onsubmit="get">登录</a>
+								<input type="submit">
 							</li>
 							<li class="last">
 								<a href="#">其他登录方式</a>
@@ -48,5 +50,7 @@
 				</p>
 			</footer>
 		</div>
+		<script src="js/jquery-1.12.4.js"></script>
+				<script src="js/denglu.js"></script>
 	</body>
 </html>

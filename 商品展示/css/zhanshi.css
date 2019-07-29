@@ -317,11 +317,12 @@ footer p>a{
 .sdmd{
 	float: left;
 	width: 583px;
-	height: 356px;
+	
 	background: #f9f5f2;
 	box-sizing: border-box;
 	padding-top: 27px;
 	padding-left: 15px;
+	padding-bottom: 27px;
 }
 .mdu1 li{
 	float: left;
@@ -337,6 +338,11 @@ footer p>a{
 }
 .mdu1 li:nth-of-type(2){
 	margin-right: 248px;
+}
+.mdu1 li:nth-of-type(3){
+	height: 16px;
+	width: 100px;
+	text-align: center;
 }
 .mdu1 li>a{
 	color: #666666;
@@ -359,7 +365,6 @@ footer p>a{
 .mdu2 ul{
 	float: left;
 	width: 290px;
-	height: 250px;
 }
 .mdu2 ul>li{
 	float: left;
@@ -558,4 +563,21 @@ input[name="goumai"]{
 }
 .bbt p{
 	color: #666666;
+}
+#u2lu li{
+	display: none;
+}
+#u2lu li:first-of-type{
+	display: block;
+}
+#gd {
+	margin-left: 20px;
+	cursor: pointer;
+}
+#erweih {
+	margin-top: 10px;
+	width: 101px;
+	height: 101px;
+	border: 1px solid #CCCCCC;
+	display: none;
 }

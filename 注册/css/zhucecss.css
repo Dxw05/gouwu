@@ -66,7 +66,14 @@ form>ul li{
 	float: left;
 	width: 350px;
 	min-height: 36px;
-	margin-bottom: 19px;
+}
+input~p{
+	float: left;
+	width: 350px;
+	height: 19px;
+	margin: 0;
+	line-height: 19px;
+	color: red;
 }
 form>ul li:nth-of-type(1){
 	background: url(../img/bg-1.gif) no-repeat;
@@ -111,7 +118,7 @@ input[name="mima2"]{
 	margin-left: 1px;
 	border: 0;
 }
-input[name="mima"]+div{
+input[name="mima"]~div{
 	float: right;
 	width: 170px;
 	height: 20px;

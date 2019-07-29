@@ -1,0 +1,14 @@
+$(function(){
+	$("#gd").toggle(function(){
+		$(this).parent().siblings().show()
+		$(this).text("收起");
+	},function(){
+		$(this).parent().siblings().hide()
+		$(this).text("更多");
+	})
+	$("#erweis").hover(function(){
+		$("#erweih").show();
+	},function(){
+		$("#erweih").hide();
+	})
+})
